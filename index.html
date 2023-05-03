@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8" />
     <title>Fotbalový team</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sestavený fotbalový team</h1>
+    <div class="wrap">
+    <header class="hlavicka">
+        <h1>Sestavení fotbalového teamu</h1>
+    </header>
+    <main class="hlavni">
+    <p class="komentar">Postupně si přidávej hráče na seznam.<br>Tlačítkem Sestav team se vygeneruje sestava hráčů.</p>
+    <form>
+        <label for="jmeno">Jméno hráče:</label>
+        <input type="text" id="jmeno" required>
+        <br>
+        <label for="rank">Rank:</label>
+        <input type="text" id="rank" required>
+        <br>
+        <button type="button" class="btn add" id="add-btn">Přidej hráče</button>
+        <button type="button" class="btn generate" id="generate-btn">Sestav team</button>
+      </form>
+      <h2>Seznam hráčů</h2>
+      <ul class="hraci" id="json-array"></ul>
     <h2 id="tA">Team A</h2>
     <h2 id="tB">Team B</h2>
-
+    </main>  
     <script src="hraci.js"></script>
     <footer class="mf">(c) 2023 <a href="https://www.vaclavkeil.cz">VK JavaScript ES6</a></footer>
+    </div>
 </body>
 </html>

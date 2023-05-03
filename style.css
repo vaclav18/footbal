@@ -1,0 +1,91 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*reset end, credit Josh W. Corneau*/
+  .wrap {
+    max-width: 1000px;
+    background-color: #ffc;
+    margin: 0 auto;
+  }
+  body {
+    background-color: #000;
+  }
+  .hlavicka {
+    background-color: blue;
+    color: #ffc;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  .hlavni {
+    margin: 40px 20px;
+  }
+  .komentar {
+      margin: 40px 0;
+      border: solid 5px green;
+      padding: 0 10px;
+      width: 75%;
+      font-size: 20px;
+      font-weight: 800;
+  }
+  .btn {
+    border-radius: 12px;
+    padding: 10px;
+  }
+  .btn.add {
+    background-color: greenyellow;
+  }
+  .btn.del {
+    background-color: lightcoral;
+    padding: 0 10px;
+  }
+  form {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+  form input {
+    margin-bottom: 20px;
+  }
+  form .btn {
+    margin-top: 10px;
+  }
+  ul.hraci {
+    list-style: none;
+  }
+  .hraci li {
+    padding-bottom: 5px;
+    font-size: 19px;
+  }
+  .mf {
+    background-color: #000;
+    padding: 20px;
+    color: #fcf;
+  }
+  .mf a {
+    color: #fcf;
+  }
+
+
+  
